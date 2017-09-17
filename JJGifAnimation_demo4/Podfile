@@ -1,0 +1,13 @@
+
+platform :ios, '9.0'
+
+target 'JJGifAnimation_demo4' do
+
+
+  pod 'FLAnimatedImage'
+
+  use_frameworks!
+
+  # Pods for JJGifAnimation_demo4
+
+end

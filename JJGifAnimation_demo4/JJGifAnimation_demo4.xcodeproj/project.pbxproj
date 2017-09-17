@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D39BA151F6E77CB0098F445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D39BA141F6E77CB0098F445 /* main.m */; };
+		8D39BA181F6E77CB0098F445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D39BA171F6E77CB0098F445 /* AppDelegate.m */; };
+		8D39BA1B1F6E77CB0098F445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D39BA1A1F6E77CB0098F445 /* ViewController.m */; };
+		8D39BA1E1F6E77CB0098F445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D39BA1C1F6E77CB0098F445 /* Main.storyboard */; };
+		8D39BA201F6E77CB0098F445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D39BA1F1F6E77CB0098F445 /* Assets.xcassets */; };
+		8D39BA231F6E77CB0098F445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D39BA211F6E77CB0098F445 /* LaunchScreen.storyboard */; };
+		8D39BA2B1F6E805A0098F445 /* gifAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D39BA2A1F6E805A0098F445 /* gifAnimation.gif */; };
+		F256540ACEEAA8A245037DAE /* Pods_JJGifAnimation_demo4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8CA12A1BA9108E697788AC /* Pods_JJGifAnimation_demo4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		781D813858F3A8738692CF2F /* Pods-JJGifAnimation_demo4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJGifAnimation_demo4.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJGifAnimation_demo4/Pods-JJGifAnimation_demo4.release.xcconfig"; sourceTree = "<group>"; };
+		8D39BA101F6E77CB0098F445 /* JJGifAnimation_demo4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJGifAnimation_demo4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D39BA141F6E77CB0098F445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D39BA161F6E77CB0098F445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D39BA171F6E77CB0098F445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D39BA191F6E77CB0098F445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D39BA1A1F6E77CB0098F445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D39BA1D1F6E77CB0098F445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D39BA1F1F6E77CB0098F445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D39BA221F6E77CB0098F445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D39BA241F6E77CB0098F445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D39BA2A1F6E805A0098F445 /* gifAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifAnimation.gif; sourceTree = "<group>"; };
+		8F91BABF5793FD249E6DEEDD /* Pods-JJGifAnimation_demo4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJGifAnimation_demo4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJGifAnimation_demo4/Pods-JJGifAnimation_demo4.debug.xcconfig"; sourceTree = "<group>"; };
+		AC8CA12A1BA9108E697788AC /* Pods_JJGifAnimation_demo4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGifAnimation_demo4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D39BA0D1F6E77CB0098F445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F256540ACEEAA8A245037DAE /* Pods_JJGifAnimation_demo4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D39BA071F6E77CB0098F445 = {
+			isa = PBXGroup;
+			children = (
+				8D39BA121F6E77CB0098F445 /* JJGifAnimation_demo4 */,
+				8D39BA111F6E77CB0098F445 /* Products */,
+				E8AD7DDF4C4C4AE3C30214F2 /* Pods */,
+				CF568F08F81659E94BF71678 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D39BA111F6E77CB0098F445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D39BA101F6E77CB0098F445 /* JJGifAnimation_demo4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D39BA121F6E77CB0098F445 /* JJGifAnimation_demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				8D39BA161F6E77CB0098F445 /* AppDelegate.h */,
+				8D39BA171F6E77CB0098F445 /* AppDelegate.m */,
+				8D39BA191F6E77CB0098F445 /* ViewController.h */,
+				8D39BA1A1F6E77CB0098F445 /* ViewController.m */,
+				8D39BA1C1F6E77CB0098F445 /* Main.storyboard */,
+				8D39BA1F1F6E77CB0098F445 /* Assets.xcassets */,
+				8D39BA211F6E77CB0098F445 /* LaunchScreen.storyboard */,
+				8D39BA241F6E77CB0098F445 /* Info.plist */,
+				8D39BA2A1F6E805A0098F445 /* gifAnimation.gif */,
+				8D39BA131F6E77CB0098F445 /* Supporting Files */,
+			);
+			path = JJGifAnimation_demo4;
+			sourceTree = "<group>";
+		};
+		8D39BA131F6E77CB0098F445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D39BA141F6E77CB0098F445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF568F08F81659E94BF71678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8CA12A1BA9108E697788AC /* Pods_JJGifAnimation_demo4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AD7DDF4C4C4AE3C30214F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F91BABF5793FD249E6DEEDD /* Pods-JJGifAnimation_demo4.debug.xcconfig */,
+				781D813858F3A8738692CF2F /* Pods-JJGifAnimation_demo4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D39BA0F1F6E77CB0098F445 /* JJGifAnimation_demo4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D39BA271F6E77CB0098F445 /* Build configuration list for PBXNativeTarget "JJGifAnimation_demo4" */;
+			buildPhases = (
+				D7585B75C0439585161339D1 /* [CP] Check Pods Manifest.lock */,
+				8D39BA0C1F6E77CB0098F445 /* Sources */,
+				8D39BA0D1F6E77CB0098F445 /* Frameworks */,
+				8D39BA0E1F6E77CB0098F445 /* Resources */,
+				59AB26966D6A0F2818E3C70E /* [CP] Embed Pods Frameworks */,
+				AA729FB77032333E262E3983 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJGifAnimation_demo4;
+			productName = JJGifAnimation_demo4;
+			productReference = 8D39BA101F6E77CB0098F445 /* JJGifAnimation_demo4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D39BA081F6E77CB0098F445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.daoKeLegend;
+				TargetAttributes = {
+					8D39BA0F1F6E77CB0098F445 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7YRE3MCZA6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D39BA0B1F6E77CB0098F445 /* Build configuration list for PBXProject "JJGifAnimation_demo4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D39BA071F6E77CB0098F445;
+			productRefGroup = 8D39BA111F6E77CB0098F445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D39BA0F1F6E77CB0098F445 /* JJGifAnimation_demo4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D39BA0E1F6E77CB0098F445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D39BA231F6E77CB0098F445 /* LaunchScreen.storyboard in Resources */,
+				8D39BA201F6E77CB0098F445 /* Assets.xcassets in Resources */,
+				8D39BA2B1F6E805A0098F445 /* gifAnimation.gif in Resources */,
+				8D39BA1E1F6E77CB0098F445 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59AB26966D6A0F2818E3C70E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJGifAnimation_demo4/Pods-JJGifAnimation_demo4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA729FB77032333E262E3983 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJGifAnimation_demo4/Pods-JJGifAnimation_demo4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7585B75C0439585161339D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D39BA0C1F6E77CB0098F445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D39BA1B1F6E77CB0098F445 /* ViewController.m in Sources */,
+				8D39BA181F6E77CB0098F445 /* AppDelegate.m in Sources */,
+				8D39BA151F6E77CB0098F445 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D39BA1C1F6E77CB0098F445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D39BA1D1F6E77CB0098F445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D39BA211F6E77CB0098F445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D39BA221F6E77CB0098F445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D39BA251F6E77CB0098F445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D39BA261F6E77CB0098F445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D39BA281F6E77CB0098F445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F91BABF5793FD249E6DEEDD /* Pods-JJGifAnimation_demo4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YRE3MCZA6;
+				INFOPLIST_FILE = JJGifAnimation_demo4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJGifAnimation-demo4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D39BA291F6E77CB0098F445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781D813858F3A8738692CF2F /* Pods-JJGifAnimation_demo4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YRE3MCZA6;
+				INFOPLIST_FILE = JJGifAnimation_demo4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daoKeLegend.cn.JJGifAnimation-demo4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D39BA0B1F6E77CB0098F445 /* Build configuration list for PBXProject "JJGifAnimation_demo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D39BA251F6E77CB0098F445 /* Debug */,
+				8D39BA261F6E77CB0098F445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D39BA271F6E77CB0098F445 /* Build configuration list for PBXNativeTarget "JJGifAnimation_demo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D39BA281F6E77CB0098F445 /* Debug */,
+				8D39BA291F6E77CB0098F445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D39BA081F6E77CB0098F445 /* Project object */;
+}
