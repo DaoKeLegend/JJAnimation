@@ -1,0 +1,6 @@
+framework module Pods_JJKeyFrameAnimation_demo12 {
+  umbrella header "Pods-JJKeyFrameAnimation_demo12-umbrella.h"
+
+  export *
+  module * { export * }
+}

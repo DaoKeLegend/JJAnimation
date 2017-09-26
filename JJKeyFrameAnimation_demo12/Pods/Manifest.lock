@@ -1,0 +1,12 @@
+PODS:
+  - keyframes (1.0.0)
+
+DEPENDENCIES:
+  - keyframes
+
+SPEC CHECKSUMS:
+  keyframes: b898927eebe631cea1daba4376b134d48da87c0a
+
+PODFILE CHECKSUM: 85c1a4963ff3cbfe3b1c479e56c43489e11b4fba
+
+COCOAPODS: 1.2.1.beta.1

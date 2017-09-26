@@ -1,0 +1,13 @@
+
+
+platform :ios, '9.0'
+
+target 'JJKeyFrameAnimation_demo12' do
+  
+  pod ‘keyframes’
+
+  use_frameworks!
+
+  # Pods for JJKeyFrameAnimation_demo12
+
+end
