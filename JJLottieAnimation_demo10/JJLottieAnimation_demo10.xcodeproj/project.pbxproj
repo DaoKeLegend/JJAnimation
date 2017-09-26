@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403472B1F79FE40009B5923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403472A1F79FE40009B5923 /* AppDelegate.m */; };
+		0403472E1F79FE40009B5923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403472D1F79FE40009B5923 /* ViewController.m */; };
+		040347311F79FE40009B5923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403472F1F79FE40009B5923 /* Main.storyboard */; };
+		040347331F79FE40009B5923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040347321F79FE40009B5923 /* Assets.xcassets */; };
+		040347361F79FE40009B5923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040347341F79FE40009B5923 /* LaunchScreen.storyboard */; };
+		040347391F79FE40009B5923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040347381F79FE40009B5923 /* main.m */; };
+		040B1B021F7A42A000D5B1A3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 040B1B001F7A3F1000D5B1A3 /* data.json */; };
+		040B1B031F7A42A000D5B1A3 /* Snip20170926_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 040B1B011F7A421900D5B1A3 /* Snip20170926_7.png */; };
+		040B1B041F7A42A000D5B1A3 /* data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 040B1AFF1F7A3F1000D5B1A3 /* data1.json */; };
+		040B1B051F7A42A000D5B1A3 /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = 040B1AFE1F7A3F1000D5B1A3 /* data2.json */; };
+		96A51EB1D1FD53A1EBAA4147 /* Pods_JJLottieAnimation_demo10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F0F50282F04D49121112CA /* Pods_JJLottieAnimation_demo10.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040347261F79FE40009B5923 /* JJLottieAnimation_demo10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJLottieAnimation_demo10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040347291F79FE40009B5923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0403472A1F79FE40009B5923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0403472C1F79FE40009B5923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0403472D1F79FE40009B5923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040347301F79FE40009B5923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040347321F79FE40009B5923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040347351F79FE40009B5923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040347371F79FE40009B5923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040347381F79FE40009B5923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040B1AFE1F7A3F1000D5B1A3 /* data2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		040B1AFF1F7A3F1000D5B1A3 /* data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data1.json; sourceTree = "<group>"; };
+		040B1B001F7A3F1000D5B1A3 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		040B1B011F7A421900D5B1A3 /* Snip20170926_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20170926_7.png; sourceTree = "<group>"; };
+		1CB6D473E11A136D67C9D2DA /* Pods-JJLottieAnimation_demo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLottieAnimation_demo10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJLottieAnimation_demo10/Pods-JJLottieAnimation_demo10.debug.xcconfig"; sourceTree = "<group>"; };
+		B2FDA94DC90DEBA6FB601FFD /* Pods-JJLottieAnimation_demo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJLottieAnimation_demo10.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJLottieAnimation_demo10/Pods-JJLottieAnimation_demo10.release.xcconfig"; sourceTree = "<group>"; };
+		D8F0F50282F04D49121112CA /* Pods_JJLottieAnimation_demo10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJLottieAnimation_demo10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040347231F79FE40009B5923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A51EB1D1FD53A1EBAA4147 /* Pods_JJLottieAnimation_demo10.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403471D1F79FE40009B5923 = {
+			isa = PBXGroup;
+			children = (
+				040347281F79FE40009B5923 /* JJLottieAnimation_demo10 */,
+				040347271F79FE40009B5923 /* Products */,
+				20480F994F91AF4CD7EABE92 /* Pods */,
+				73892BE4D66EE0BA46FB9E36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040347271F79FE40009B5923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040347261F79FE40009B5923 /* JJLottieAnimation_demo10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040347281F79FE40009B5923 /* JJLottieAnimation_demo10 */ = {
+			isa = PBXGroup;
+			children = (
+				040347291F79FE40009B5923 /* AppDelegate.h */,
+				0403472A1F79FE40009B5923 /* AppDelegate.m */,
+				0403472C1F79FE40009B5923 /* ViewController.h */,
+				0403472D1F79FE40009B5923 /* ViewController.m */,
+				0403472F1F79FE40009B5923 /* Main.storyboard */,
+				040347321F79FE40009B5923 /* Assets.xcassets */,
+				040347341F79FE40009B5923 /* LaunchScreen.storyboard */,
+				040347371F79FE40009B5923 /* Info.plist */,
+				040B1B001F7A3F1000D5B1A3 /* data.json */,
+				040B1B011F7A421900D5B1A3 /* Snip20170926_7.png */,
+				040B1AFF1F7A3F1000D5B1A3 /* data1.json */,
+				040B1AFE1F7A3F1000D5B1A3 /* data2.json */,
+				040347381F79FE40009B5923 /* main.m */,
+			);
+			path = JJLottieAnimation_demo10;
+			sourceTree = "<group>";
+		};
+		20480F994F91AF4CD7EABE92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CB6D473E11A136D67C9D2DA /* Pods-JJLottieAnimation_demo10.debug.xcconfig */,
+				B2FDA94DC90DEBA6FB601FFD /* Pods-JJLottieAnimation_demo10.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73892BE4D66EE0BA46FB9E36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F0F50282F04D49121112CA /* Pods_JJLottieAnimation_demo10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040347251F79FE40009B5923 /* JJLottieAnimation_demo10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0403473C1F79FE40009B5923 /* Build configuration list for PBXNativeTarget "JJLottieAnimation_demo10" */;
+			buildPhases = (
+				C4FDC4AF6F9A553F54F1DF24 /* [CP] Check Pods Manifest.lock */,
+				040347221F79FE40009B5923 /* Sources */,
+				040347231F79FE40009B5923 /* Frameworks */,
+				040347241F79FE40009B5923 /* Resources */,
+				516581D89A42D5D0681967DF /* [CP] Embed Pods Frameworks */,
+				A3F9ECFBE4F028CBDFAB8488 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJLottieAnimation_demo10;
+			productName = JJLottieAnimation_demo10;
+			productReference = 040347261F79FE40009B5923 /* JJLottieAnimation_demo10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0403471E1F79FE40009B5923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DaoKeLegend;
+				TargetAttributes = {
+					040347251F79FE40009B5923 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 040347211F79FE40009B5923 /* Build configuration list for PBXProject "JJLottieAnimation_demo10" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0403471D1F79FE40009B5923;
+			productRefGroup = 040347271F79FE40009B5923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040347251F79FE40009B5923 /* JJLottieAnimation_demo10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040347241F79FE40009B5923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B1B021F7A42A000D5B1A3 /* data.json in Resources */,
+				040B1B031F7A42A000D5B1A3 /* Snip20170926_7.png in Resources */,
+				040B1B041F7A42A000D5B1A3 /* data1.json in Resources */,
+				040B1B051F7A42A000D5B1A3 /* data2.json in Resources */,
+				040347361F79FE40009B5923 /* LaunchScreen.storyboard in Resources */,
+				040347331F79FE40009B5923 /* Assets.xcassets in Resources */,
+				040347311F79FE40009B5923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		516581D89A42D5D0681967DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JJLottieAnimation_demo10/Pods-JJLottieAnimation_demo10-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLottieAnimation_demo10/Pods-JJLottieAnimation_demo10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F9ECFBE4F028CBDFAB8488 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJLottieAnimation_demo10/Pods-JJLottieAnimation_demo10-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FDC4AF6F9A553F54F1DF24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJLottieAnimation_demo10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040347221F79FE40009B5923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403472E1F79FE40009B5923 /* ViewController.m in Sources */,
+				040347391F79FE40009B5923 /* main.m in Sources */,
+				0403472B1F79FE40009B5923 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0403472F1F79FE40009B5923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040347301F79FE40009B5923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040347341F79FE40009B5923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040347351F79FE40009B5923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0403473A1F79FE40009B5923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0403473B1F79FE40009B5923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0403473D1F79FE40009B5923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB6D473E11A136D67C9D2DA /* Pods-JJLottieAnimation_demo10.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJLottieAnimation_demo10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cn.JJLottieAnimation-demo10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0403473E1F79FE40009B5923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FDA94DC90DEBA6FB601FFD /* Pods-JJLottieAnimation_demo10.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJLottieAnimation_demo10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cn.JJLottieAnimation-demo10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040347211F79FE40009B5923 /* Build configuration list for PBXProject "JJLottieAnimation_demo10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403473A1F79FE40009B5923 /* Debug */,
+				0403473B1F79FE40009B5923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0403473C1F79FE40009B5923 /* Build configuration list for PBXNativeTarget "JJLottieAnimation_demo10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403473D1F79FE40009B5923 /* Debug */,
+				0403473E1F79FE40009B5923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0403471E1F79FE40009B5923 /* Project object */;
+}

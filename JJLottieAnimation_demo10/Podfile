@@ -1,0 +1,12 @@
+ platform :ios, '9.0'
+
+target 'JJLottieAnimation_demo10' do
+  
+
+   pod 'lottie-ios'
+
+   use_frameworks!
+
+  # Pods for JJLottieAnimation_demo10
+
+end

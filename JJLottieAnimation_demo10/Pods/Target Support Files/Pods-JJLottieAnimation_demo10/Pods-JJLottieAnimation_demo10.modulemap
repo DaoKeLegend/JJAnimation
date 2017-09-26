@@ -1,0 +1,6 @@
+framework module Pods_JJLottieAnimation_demo10 {
+  umbrella header "Pods-JJLottieAnimation_demo10-umbrella.h"
+
+  export *
+  module * { export * }
+}
